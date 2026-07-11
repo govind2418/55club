@@ -386,7 +386,7 @@
   gap: var(--sp-4);
   padding-bottom: var(--sp-5);
 }
-.footer-col h4 { font-size: var(--fs-200); text-transform: uppercase; letter-spacing: 0.06em; color: var(--color-text-muted); margin-bottom: var(--sp-2); }
+.footer-col h3 { font-size: var(--fs-200); text-transform: uppercase; letter-spacing: 0.06em; color: var(--color-text-muted); margin-bottom: var(--sp-2); }
 .footer-col ul { display: grid; gap: 10px; }
 .footer-col a { color: var(--color-text-secondary); font-size: var(--fs-200); }
 .footer-col a:hover { color: var(--color-primary); }

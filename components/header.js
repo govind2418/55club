@@ -21,7 +21,7 @@ function renderHeader(activeHref = "/") {
   <div class="container">
     <a href="/" class="brand" aria-label="${site.siteName} home">
       ${brandMark()}
-      <span>55<span class="brand-suffix">Club</span></span>
+      <span>55 <span class="brand-suffix">Club</span></span>
     </a>
 
     <nav class="nav-main" aria-label="Primary">

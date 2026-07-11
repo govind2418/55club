@@ -8,7 +8,7 @@ function renderFooter() {
     .map(
       (col) => `
     <div class="footer-col">
-      <h4>${col.title}</h4>
+      <h3>${col.title}</h3>
       <ul>${col.links.map((l) => `<li><a href="${l.href}">${l.label}</a></li>`).join("")}</ul>
     </div>`
     )
@@ -23,7 +23,7 @@ function renderFooter() {
       <div class="footer-col footer-brand">
         <a href="/" class="brand" aria-label="${site.siteName} home">
           ${brandMark()}
-          <span>55<span class="brand-suffix">Club</span></span>
+          <span>55 <span class="brand-suffix">Club</span></span>
         </a>
         <p>${site.description}</p>
         <div class="social-icons">
