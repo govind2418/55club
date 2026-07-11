@@ -1,0 +1,73 @@
+/* ==========================================================================
+   55 Club — Design Tokens
+   ========================================================================== */
+
+:root {
+  /* Brand */
+  --color-primary: #ff5a4e;
+  --color-primary-hover: #ff7466;
+  --color-primary-rgb: 255, 90, 78;
+
+  /* Surfaces */
+  --color-bg: #090909;
+  --color-bg-secondary: #151515;
+  --color-card: #1e1e1e;
+  --color-card-rgb: 30, 30, 30;
+
+  /* Lines & glow */
+  --color-border: rgba(255, 90, 78, 0.15);
+  --color-border-strong: rgba(255, 90, 78, 0.35);
+  --color-glow: rgba(255, 90, 78, 0.25);
+
+  /* Text */
+  --color-text: #ffffff;
+  --color-text-secondary: #cfcfcf;
+  --color-text-muted: #8a8a8a;
+
+  /* Status */
+  --color-success: #33d17a;
+  --color-warning: #ffb648;
+
+  /* Typography */
+  --font-display: "Sora", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-body: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+  --fs-100: 0.75rem;
+  --fs-200: 0.875rem;
+  --fs-300: 1rem;
+  --fs-400: 1.125rem;
+  --fs-500: 1.375rem;
+  --fs-600: 1.75rem;
+  --fs-700: 2.25rem;
+  --fs-800: 3rem;
+  --fs-900: 3.75rem;
+
+  /* 8px grid spacing scale */
+  --sp-1: 0.5rem;
+  --sp-2: 1rem;
+  --sp-3: 1.5rem;
+  --sp-4: 2rem;
+  --sp-5: 3rem;
+  --sp-6: 4rem;
+  --sp-7: 6rem;
+  --sp-8: 8rem;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 999px;
+
+  /* Motion */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur-fast: 150ms;
+  --dur-med: 260ms;
+
+  /* Layout */
+  --container-max: 1240px;
+  --header-h: 76px;
+
+  /* Elevation (soft glow, not heavy shadow) */
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.35);
+  --shadow-glow: 0 0 0 1px var(--color-border), 0 8px 32px -8px var(--color-glow);
+}
