@@ -76,15 +76,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Game Pages",
         links: [
-          { label: "Casino", href: "/casino/" },
-          { label: "Slots", href: "/slots/" },
-          { label: "Win Go", href: "/win-go/" },
-          { label: "Promotions", href: "/promotions/" },
-          { label: "Register", href: "/register/" },
+          { label: "55 Club Casino", href: "/casino/" },
+          { label: "55 Club Slots", href: "/slots/" },
+          { label: "55 Club Win Go", href: "/win-go/" },
+          { label: "55 Club Promotions", href: "/promotions/" },
+          { label: "55 Club Register", href: "/register/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is 55club aviator the same game as 55 Club Aviator?", a: "Yes — 55club, 55 Club and 55Club all point to the same Aviator round, the same multiplier and the same cash-out button on this page." },
           { q: "How does Aviator work?", a: "Bet before the plane takes off, watch the multiplier climb as it flies, and cash out any time to lock in your win — the round ends when the plane crashes." },
           { q: "When should I cash out?", a: "That's entirely up to you — cash out early for a smaller, safer multiplier, or hold longer for a bigger payout at higher risk of the plane crashing first." },
           { q: "What happens if I don't cash out in time?", a: "If the plane crashes before you cash out, that round's bet is lost." },

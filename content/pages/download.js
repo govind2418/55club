@@ -78,15 +78,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "App", href: "/app/" },
-          { label: "APK", href: "/apk/" },
-          { label: "Official Website", href: "/official-website/" },
-          { label: "Register", href: "/register/" },
-          { label: "Customer Support", href: "/customer-support/" },
+          { label: "55 Club App", href: "/app/" },
+          { label: "55 Club APK", href: "/apk/" },
+          { label: "55 Club Official Website", href: "/official-website/" },
+          { label: "55 Club Register", href: "/register/" },
+          { label: "55 Club Customer Support", href: "/customer-support/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is the 55club download the same file as the 55 Club download?", a: "Yes — 55club, 55 Club and 55Club all refer to the same APK, so the download steps on this page apply no matter which spelling brought you here." },
           { q: "What devices does the download page cover?", a: "The APK is built for Android. iOS and other devices can play the full game library directly through the mobile browser instead." },
           { q: "Why is there a direct APK instead of only a browser version?", a: "The APK gives you faster access with a one-tap home-screen icon and a lighter footprint than a typical app-store install." },
           { q: "Is the mobile browser version missing any features?", a: "No — it's the same account, balance and game library as the app. The APK is about convenience, not extra features." },

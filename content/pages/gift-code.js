@@ -77,15 +77,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "Invite Code", href: "/invite-code/" },
-          { label: "Promotions", href: "/promotions/" },
-          { label: "Bonus", href: "/bonus/" },
-          { label: "Rewards", href: "/rewards/" },
-          { label: "Customer Support", href: "/customer-support/" },
+          { label: "55 Club Invite Code", href: "/invite-code/" },
+          { label: "55 Club Promotions", href: "/promotions/" },
+          { label: "55 Club Bonus", href: "/bonus/" },
+          { label: "55 Club Rewards", href: "/rewards/" },
+          { label: "55 Club Customer Support", href: "/customer-support/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is a 55club gift code the same as a 55 Club gift code?", a: "Yes — 55club, 55 Club and 55Club refer to the same platform, so any gift code you've been given works the same way through the redemption field on this page." },
           { q: "How do I redeem a gift code?", a: "Enter it into the field on this page and submit. If it's valid, bonus balance is credited to your account immediately." },
           { q: "What if my code doesn't work?", a: "You'll see one of four specific messages — invalid format, already used, expired, or not found — so you know exactly what happened." },
           { q: "Where do gift codes come from?", a: "We release them through our social channels, live events and giveaways, and occasionally through Customer Support." },

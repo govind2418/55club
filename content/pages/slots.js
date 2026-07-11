@@ -76,15 +76,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Game Pages",
         links: [
-          { label: "Casino", href: "/casino/" },
-          { label: "Aviator", href: "/aviator/" },
-          { label: "Promotions", href: "/promotions/" },
-          { label: "Bonus", href: "/bonus/" },
-          { label: "Register", href: "/register/" },
+          { label: "55 Club Casino", href: "/casino/" },
+          { label: "55 Club Aviator", href: "/aviator/" },
+          { label: "55 Club Promotions", href: "/promotions/" },
+          { label: "55 Club Bonus", href: "/bonus/" },
+          { label: "55 Club Register", href: "/register/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is 55club slots the same as 55 Club Slots?", a: "Yes — 55club, 55 Club and 55Club all point to the same themed reel collections and the same feature comparison block on this page." },
           { q: "How are slot games organized on this page?", a: "By themed collection, so you can browse titles that share a visual style rather than scrolling one undifferentiated list." },
           { q: "What do the feature comparison terms mean?", a: "Paylines, volatility, bonus rounds and free spins — the four terms most useful for comparing titles before you spin." },
           { q: "What's the difference between a bonus round and free spins?", a: "A bonus round is a secondary mechanic triggered within a game, such as a pick-and-win screen; free spins are extra spins awarded without touching your own balance." },

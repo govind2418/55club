@@ -78,15 +78,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "Login", href: "/login/" },
-          { label: "Register", href: "/register/" },
-          { label: "Download", href: "/download/" },
-          { label: "Customer Support", href: "/customer-support/" },
-          { label: "About", href: "/about/" },
+          { label: "55 Club Login", href: "/login/" },
+          { label: "55 Club Register", href: "/register/" },
+          { label: "55 Club Download", href: "/download/" },
+          { label: "55 Club Customer Support", href: "/customer-support/" },
+          { label: "55 Club About", href: "/about/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is 55club.com or a no-space domain the official 55 Club site?", a: "The only official domain is club55.in.net — searches for \"55club\" as one word still lead here, so always verify the exact spelling in the address bar regardless of how you searched." },
           { q: "What is the official 55 Club website?", a: "55 Club is accessible at club55.in.net. Always check the domain carefully before entering your login details." },
           { q: "How do I know I'm on the official website?", a: "Check the domain reads exactly as club55.in.net, confirm a secure connection, and compare the layout against what's linked from this page." },
           { q: "Why do lookalike or mirror sites exist?", a: "Popular platform names attract typo-squatted or impersonation domains, often shared through untrusted links in chats or ads." },

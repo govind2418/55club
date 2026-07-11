@@ -77,15 +77,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "Rewards", href: "/rewards/" },
-          { label: "Invite Code", href: "/invite-code/" },
-          { label: "Promotions", href: "/promotions/" },
-          { label: "Bonus", href: "/bonus/" },
-          { label: "Customer Support", href: "/customer-support/" },
+          { label: "55 Club Rewards", href: "/rewards/" },
+          { label: "55 Club Invite Code", href: "/invite-code/" },
+          { label: "55 Club Promotions", href: "/promotions/" },
+          { label: "55 Club Bonus", href: "/bonus/" },
+          { label: "55 Club Customer Support", href: "/customer-support/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is 55club vip the same as the 55 Club VIP Club?", a: "Yes — 55club, 55 Club and 55Club all refer to the same ten-tier VIP1–VIP10 loyalty ladder described on this page." },
           { q: "How many VIP tiers are there?", a: "Ten — VIP1 through VIP10. Every account starts at VIP1 and moves up automatically based on deposit and play activity." },
           { q: "What determines tier progression?", a: "Your deposit volume and play activity, tracked continuously on your account. There's no separate application — progress builds as you use your account." },
           { q: "What perks unlock at higher tiers?", a: "Faster withdrawal processing, higher withdrawal limits, a dedicated support contact, a birthday bonus, and early access to exclusive promotions, depending on the tier." },

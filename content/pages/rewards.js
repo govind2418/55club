@@ -77,15 +77,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "VIP Club", href: "/vip-club/" },
-          { label: "Gift Code", href: "/gift-code/" },
-          { label: "Invite Code", href: "/invite-code/" },
-          { label: "Promotions", href: "/promotions/" },
-          { label: "Register", href: "/register/" },
+          { label: "55 Club VIP Club", href: "/vip-club/" },
+          { label: "55 Club Gift Code", href: "/gift-code/" },
+          { label: "55 Club Invite Code", href: "/invite-code/" },
+          { label: "55 Club Promotions", href: "/promotions/" },
+          { label: "55 Club Register", href: "/register/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is the 55club daily check-in the same as 55 Club Rewards?", a: "Yes — 55club, 55 Club and 55Club all point to the same account, so the daily check-in streak and milestone bonuses described here apply no matter how you type the name." },
           { q: "How does the daily check-in work?", a: "Log in once a day and hit claim on the Rewards page. The bonus is credited to your balance immediately, and your streak counter goes up by one." },
           { q: "What happens if I miss a day?", a: "Your streak resets to zero, and your next check-in starts back at the day-one rate. There's no grace period, so it's worth checking in even on a busy day." },
           { q: "What are the milestone days?", a: "Day 3, 7, 15 and 30 each unlock a bigger bonus than a standard daily claim. The milestone table on this page shows exactly what each one pays out." },

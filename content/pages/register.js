@@ -78,15 +78,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "Login", href: "/login/" },
-          { label: "Invite Code", href: "/invite-code/" },
-          { label: "Gift Code", href: "/gift-code/" },
-          { label: "Rewards", href: "/rewards/" },
-          { label: "VIP Club", href: "/vip-club/" },
+          { label: "55 Club Login", href: "/login/" },
+          { label: "55 Club Invite Code", href: "/invite-code/" },
+          { label: "55 Club Gift Code", href: "/gift-code/" },
+          { label: "55 Club Rewards", href: "/rewards/" },
+          { label: "55 Club VIP Club", href: "/vip-club/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is 55club register the same as 55 Club register?", a: "Yes — however you type it (55club, 55 Club or 55Club), this is the same sign-up form for the same account." },
           { q: "What information do I need to register?", a: "A username, a password and a contact method for verification. An invite code field is available but optional." },
           { q: "Is there an age requirement to register?", a: "Yes — you'll need to confirm you meet the applicable age requirement as part of agreeing to the Terms of Service during sign-up." },
           { q: "Can I register without an invite code?", a: "Yes. The invite code field is optional and never blocks account creation if left blank." },

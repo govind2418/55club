@@ -78,15 +78,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "Register", href: "/register/" },
-          { label: "Official Website", href: "/official-website/" },
-          { label: "Customer Support", href: "/customer-support/" },
-          { label: "Download App", href: "/download/" },
-          { label: "VIP Club", href: "/vip-club/" },
+          { label: "55 Club Register", href: "/register/" },
+          { label: "55 Club Official Website", href: "/official-website/" },
+          { label: "55 Club Customer Support", href: "/customer-support/" },
+          { label: "55 Club APK Download", href: "/download/" },
+          { label: "55 Club VIP Club", href: "/vip-club/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is 55club login the same as 55 Club login?", a: "Yes — 55club, 55 Club and 55Club all refer to the same account and the same login form on this page." },
           { q: "What do I need to log in?", a: "Just your username and password. Check \"remember me\" on a personal device to stay signed in between visits." },
           { q: "What happens if I forget my password?", a: "Use the \"forgot password\" link beneath the form to get a reset link sent to your registered email." },
           { q: "What if I can't access my registered email?", a: "Contact Customer Support through 24/7 live chat — the team can help verify your identity and restore access." },

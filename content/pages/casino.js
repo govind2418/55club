@@ -76,15 +76,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Game Pages",
         links: [
-          { label: "Slots", href: "/slots/" },
-          { label: "Aviator", href: "/aviator/" },
-          { label: "Win Go", href: "/win-go/" },
-          { label: "Promotions", href: "/promotions/" },
-          { label: "VIP Club", href: "/vip-club/" },
+          { label: "55 Club Slots", href: "/slots/" },
+          { label: "55 Club Aviator", href: "/aviator/" },
+          { label: "55 Club Win Go", href: "/win-go/" },
+          { label: "55 Club Promotions", href: "/promotions/" },
+          { label: "55 Club VIP Club", href: "/vip-club/" },
         ],
       },
       faq: {
         items: [
+          { q: "Where do I find every 55club game in one place?", a: "This Casino page is the central hub — it links out to every 55 Club game category, from Table Classics and Card Games here to Slots, Aviator, Win Go, Lottery and Colour Prediction on their own dedicated pages." },
           { q: "What game types does the Casino page cover?", a: "Four categories: Table Classics, Card Games, Fishing and Mini Games, each in its own labeled section." },
           { q: "How do I find card games specifically?", a: "Jump straight to the Card Games section — each category has its own labeled header so you don't need to scroll past the others." },
           { q: "Does Casino link to more pages than other category pages?", a: "Yes — its related links reflect its central position in the game lineup, connecting to more pages than a narrower page like Colour Prediction." },

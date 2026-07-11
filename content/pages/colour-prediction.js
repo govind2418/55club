@@ -76,15 +76,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Game Pages",
         links: [
-          { label: "Win Go", href: "/win-go/" },
-          { label: "Lottery", href: "/lottery/" },
-          { label: "Aviator", href: "/aviator/" },
-          { label: "Promotions", href: "/promotions/" },
-          { label: "Register", href: "/register/" },
+          { label: "55 Club Win Go", href: "/win-go/" },
+          { label: "55 Club Lottery", href: "/lottery/" },
+          { label: "55 Club Aviator", href: "/aviator/" },
+          { label: "55 Club Promotions", href: "/promotions/" },
+          { label: "55 Club Register", href: "/register/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is 55club colour prediction the same as 55 Club Colour Prediction?", a: "Yes — 55club, 55 Club and 55Club all refer to the same Green, Red and Violet picks and the same round timer on this page." },
           { q: "How does Colour Prediction work?", a: "Pick Green, Red or Violet before the round locks. A countdown shows how long picks stay open, and the result is revealed and logged once the round closes." },
           { q: "How is this different from Win Go?", a: "Colour Prediction is colour-only with a shorter round cycle; Win Go adds a numbered result on top with a longer two-column history table." },
           { q: "What colours can I pick?", a: "Green, Red or Violet — one pick per round." },

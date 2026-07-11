@@ -77,15 +77,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "Promotions", href: "/promotions/" },
-          { label: "Gift Code", href: "/gift-code/" },
-          { label: "Rewards", href: "/rewards/" },
-          { label: "VIP Club", href: "/vip-club/" },
-          { label: "Register", href: "/register/" },
+          { label: "55 Club Promotions", href: "/promotions/" },
+          { label: "55 Club Gift Code", href: "/gift-code/" },
+          { label: "55 Club Rewards", href: "/rewards/" },
+          { label: "55 Club VIP Club", href: "/vip-club/" },
+          { label: "55 Club Register", href: "/register/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is a 55club bonus the same thing as a 55 Club bonus?", a: "Yes — whether it's written 55club, 55 Club or 55Club, it's the same welcome, check-in, referral and VIP bonus system described on this page." },
           { q: "What bonus types does 55 Club offer?", a: "Four: a welcome bonus on your first deposit, a daily check-in bonus, a referral bonus, and a VIP bonus tied to your tier on the VIP Club ladder." },
           { q: "What does 'wagering requirement' mean?", a: "It means bonus balance has to be played through a set number of times before it converts to withdrawable main balance. Specific multiples vary by bonus type." },
           { q: "How is Bonus different from Promotions?", a: "This page explains the general mechanics behind every bonus type; Promotions lists the actual current offers with their specific terms and expiry dates." },

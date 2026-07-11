@@ -78,15 +78,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "Customer Support", href: "/customer-support/" },
-          { label: "About", href: "/about/" },
-          { label: "Privacy Policy", href: "/privacy-policy/" },
-          { label: "Responsible Gaming", href: "/responsible-gaming/" },
-          { label: "Login", href: "/login/" },
+          { label: "55 Club Customer Support", href: "/customer-support/" },
+          { label: "55 Club About", href: "/about/" },
+          { label: "55 Club Privacy Policy", href: "/privacy-policy/" },
+          { label: "55 Club Responsible Gaming", href: "/responsible-gaming/" },
+          { label: "55 Club Login", href: "/login/" },
         ],
       },
       faq: {
         items: [
+          { q: "Does 55club contact go to the same team as 55 Club contact?", a: "Yes — 55club, 55 Club and 55Club all reach the same support team through the form on this page, regardless of how you searched for it." },
           { q: "What fields does the contact form require?", a: "Four: a category selector, a name or identifier, an email for response, and the message itself — no unnecessary fields." },
           { q: "What happens after I submit the form?", a: "You'll get a confirmation with a reference number, a response-time estimate, and links to relevant self-serve content on Customer Support." },
           { q: "How is Contact different from Customer Support?", a: "Contact is the written form itself; Customer Support is the full hub covering live chat, email, Telegram, response times and a self-serve topic list." },

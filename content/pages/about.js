@@ -78,15 +78,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "Contact", href: "/contact/" },
-          { label: "Customer Support", href: "/customer-support/" },
-          { label: "Privacy Policy", href: "/privacy-policy/" },
-          { label: "Responsible Gaming", href: "/responsible-gaming/" },
-          { label: "Official Website", href: "/official-website/" },
+          { label: "55 Club Contact", href: "/contact/" },
+          { label: "55 Club Customer Support", href: "/customer-support/" },
+          { label: "55 Club Privacy Policy", href: "/privacy-policy/" },
+          { label: "55 Club Responsible Gaming", href: "/responsible-gaming/" },
+          { label: "55 Club Official Website", href: "/official-website/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is 55club the same platform as 55 Club?", a: "Yes — 55club, 55 Club and 55Club are all the same gaming entertainment platform described on this About page, just written with or without a space." },
           { q: "What is 55 Club?", a: "A gaming entertainment platform with ten game categories, daily rewards, gift codes, invite-code referrals and a 10-tier VIP program, playable on mobile, desktop or the Android app." },
           { q: "How many game categories does 55 Club have?", a: "Ten: Lottery, Win Go, Colour Prediction, Slots, Casino, Mini Games, Fishing, Sports, Aviator and Card Games, with Crash Games alongside Aviator's fast-round format." },
           { q: "Do I need a different account for each game?", a: "No — one account and one balance cover every category, and your VIP tier and rewards carry across all of them." },

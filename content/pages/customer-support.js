@@ -78,15 +78,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "Contact", href: "/contact/" },
-          { label: "About", href: "/about/" },
-          { label: "Responsible Gaming", href: "/responsible-gaming/" },
-          { label: "Login", href: "/login/" },
-          { label: "Privacy Policy", href: "/privacy-policy/" },
+          { label: "55 Club Contact", href: "/contact/" },
+          { label: "55 Club About", href: "/about/" },
+          { label: "55 Club Responsible Gaming", href: "/responsible-gaming/" },
+          { label: "55 Club Login", href: "/login/" },
+          { label: "55 Club Privacy Policy", href: "/privacy-policy/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is 55club customer support different from 55 Club customer support?", a: "No — 55club, 55 Club and 55Club all lead to the same 24/7 live chat, email and Telegram support covered on this page." },
           { q: "What support channels does 55 Club offer?", a: "24/7 live chat, email through the Contact form, and a Telegram community channel." },
           { q: "How fast can I expect a response?", a: "Live chat is near-instant, day or night. Email through Contact typically comes back within a few hours." },
           { q: "What topics does the self-serve list cover?", a: "Account access, deposits and withdrawals, game rules and round mechanics, and bonus or VIP questions — the categories that come up most." },

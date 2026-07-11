@@ -77,15 +77,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "Responsible Gaming", href: "/responsible-gaming/" },
-          { label: "Customer Support", href: "/customer-support/" },
-          { label: "Contact", href: "/contact/" },
-          { label: "About", href: "/about/" },
-          { label: "Register", href: "/register/" },
+          { label: "55 Club Responsible Gaming", href: "/responsible-gaming/" },
+          { label: "55 Club Customer Support", href: "/customer-support/" },
+          { label: "55 Club Contact", href: "/contact/" },
+          { label: "55 Club About", href: "/about/" },
+          { label: "55 Club Register", href: "/register/" },
         ],
       },
       faq: {
         items: [
+          { q: "Does this privacy policy cover 55club as well as 55 Club?", a: "Yes — 55club, 55 Club and 55Club are the same platform, so this data policy applies equally regardless of how the name is written." },
           { q: "What data does 55 Club collect?", a: "Four general categories: account data, usage data, technical data and communication data, each tied to a specific purpose." },
           { q: "Why is this data collected?", a: "To keep your account secure, support you when you reach out, and deliver the platform itself, including features like your rewards and VIP tracking." },
           { q: "Can I ask about the data linked to my account?", a: "Yes — reach out through Contact or Customer Support for more detail on your account data or to make a specific request." },

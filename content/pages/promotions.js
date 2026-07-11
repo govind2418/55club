@@ -77,15 +77,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "Bonus", href: "/bonus/" },
-          { label: "Gift Code", href: "/gift-code/" },
-          { label: "Invite Code", href: "/invite-code/" },
-          { label: "VIP Club", href: "/vip-club/" },
-          { label: "Rewards", href: "/rewards/" },
+          { label: "55 Club Bonus", href: "/bonus/" },
+          { label: "55 Club Gift Code", href: "/gift-code/" },
+          { label: "55 Club Invite Code", href: "/invite-code/" },
+          { label: "55 Club VIP Club", href: "/vip-club/" },
+          { label: "55 Club Rewards", href: "/rewards/" },
         ],
       },
       faq: {
         items: [
+          { q: "Do 55club promotions differ from 55 Club promotions?", a: "No — 55club, 55 Club and 55Club are the same platform, so the current offers and campaigns listed on this page apply regardless of which spelling you searched." },
           { q: "What promotions are currently available?", a: "Check this page for the live list — typically a first-deposit match, weekend cashback, any active festival specials, and ongoing referral campaigns." },
           { q: "How do I claim the first-deposit match?", a: "Register an account and make your first deposit — the match bonus applies automatically based on the current offer's terms." },
           { q: "How does weekend cashback work?", a: "A portion of your net losses over the weekend is credited back as bonus balance, following the terms shown on the active cashback card." },

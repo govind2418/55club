@@ -76,15 +76,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Game Pages",
         links: [
-          { label: "Win Go", href: "/win-go/" },
-          { label: "Colour Prediction", href: "/colour-prediction/" },
-          { label: "Casino", href: "/casino/" },
-          { label: "Promotions", href: "/promotions/" },
-          { label: "Register", href: "/register/" },
+          { label: "55 Club Win Go", href: "/win-go/" },
+          { label: "55 Club Colour Prediction", href: "/colour-prediction/" },
+          { label: "55 Club Casino", href: "/casino/" },
+          { label: "55 Club Promotions", href: "/promotions/" },
+          { label: "55 Club Register", href: "/register/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is 55club lottery the same as 55 Club Lottery?", a: "Yes — 55club, 55 Club and 55Club all refer to the same draw schedule, the same number picks and the same results table on this page." },
           { q: "How does the Lottery format work?", a: "Pick your numbers before the submission window closes, wait for the draw to run on the published schedule, and check the results table for the winning numbers and prize tiers." },
           { q: "How often do draws occur?", a: "Draws run on a fixed, published schedule, so the timing is never a guess — check the schedule to plan your next pick." },
           { q: "Where can I see past results?", a: "The results table shows the ten most recent draws by default, with a load-more option for older history." },

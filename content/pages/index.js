@@ -11,6 +11,14 @@ const faqItems = [
     a: "55 Club is a gaming entertainment hub bringing together prediction games, Lottery, Aviator, Slots and Casino tables under one account, along with daily check-in rewards, gift codes and a tiered VIP program.",
   },
   {
+    q: "Is it \"55 Club\" or \"55club\"?",
+    a: "Both point to the same platform — 55club, 55 Club and 55Club are just different ways people type the same name. The official domain is club55.in.net.",
+  },
+  {
+    q: "How do I do 55 Club login?",
+    a: "Go to the Login page, enter your username and password, and use \"remember me\" for faster access next time. If you're locked out, the same page walks through the password reset flow.",
+  },
+  {
     q: "How do I create an account?",
     a: "Tap Register, pick a username, set a password and confirm your details. The whole flow takes under a minute — no long forms, no unnecessary fields.",
   },
@@ -107,6 +115,12 @@ ${renderHomeHero()}
       Prediction. The Rewards and VIP sections connect to a matching pair of loyalty pages. And the account
       buttons in the hero — Register, Login and Download App — take you straight into those flows, step by
       step.
+    </p>
+    <p class="text-secondary" style="font-size:var(--fs-200);margin-top:var(--sp-3);">
+      Quick access: <a href="/login/">55 Club Login</a> &middot; <a href="/register/">55 Club Register</a> &middot;
+      <a href="/casino/">55 Club Game Categories</a> &middot; <a href="/app/">55 Club App</a> &middot;
+      <a href="/download/">55 Club APK Download</a> &middot; <a href="/vip-club/">55 Club VIP</a> &middot;
+      <a href="/bonus/">55 Club Bonus Guide</a> &middot; <a href="/official-website/">55 Club Official Website</a>
     </p>
   </div>
 </section>

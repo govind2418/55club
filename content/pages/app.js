@@ -77,15 +77,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "Download", href: "/download/" },
-          { label: "APK", href: "/apk/" },
-          { label: "Official Website", href: "/official-website/" },
-          { label: "Rewards", href: "/rewards/" },
-          { label: "Customer Support", href: "/customer-support/" },
+          { label: "55 Club Download", href: "/download/" },
+          { label: "55 Club APK", href: "/apk/" },
+          { label: "55 Club Official Website", href: "/official-website/" },
+          { label: "55 Club Rewards", href: "/rewards/" },
+          { label: "55 Club Customer Support", href: "/customer-support/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is the 55club app the same as the 55 Club app?", a: "Yes — 55club app, 55 Club app and 55Club app all refer to the same mobile experience described on this page, sharing one account with the website." },
           { q: "Is the app different from the mobile website?", a: "It's the same account and games, with faster in-app navigation, push notifications, persistent login and home-screen access added on top." },
           { q: "Do I need the app to use every feature?", a: "No. The mobile website covers the full game library and account features — the app just adds convenience and notifications." },
           { q: "What screens does the app include?", a: "Four core screens: Home, Games, Rewards and Account, each mirroring the equivalent page on the website." },

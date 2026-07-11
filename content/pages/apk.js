@@ -78,15 +78,16 @@ module.exports = {
       relatedLinks: {
         title: "Related Pages",
         links: [
-          { label: "Download", href: "/download/" },
-          { label: "App", href: "/app/" },
-          { label: "Official Website", href: "/official-website/" },
-          { label: "Customer Support", href: "/customer-support/" },
-          { label: "Register", href: "/register/" },
+          { label: "55 Club Download", href: "/download/" },
+          { label: "55 Club App", href: "/app/" },
+          { label: "55 Club Official Website", href: "/official-website/" },
+          { label: "55 Club Customer Support", href: "/customer-support/" },
+          { label: "55 Club Register", href: "/register/" },
         ],
       },
       faq: {
         items: [
+          { q: "Is the 55club apk the same file as the 55 Club APK?", a: "Yes — 55club apk, 55 Club APK and 55Club APK all describe the same Android install package covered step by step on this page." },
           { q: "What is an APK file?", a: "The installable package format for Android apps. This page walks through downloading and installing the 55 Club APK outside the Play Store." },
           { q: "Is installing the APK safe?", a: "Yes, as long as you download it from the Official Website. Always check the domain and file size before installing." },
           { q: "Do I need to change device settings to install?", a: "Yes — you'll need to enable installs from unknown sources for the specific app or browser you're using, a one-time step." },
