@@ -7,7 +7,7 @@ function renderHomeHero() {
 <section class="hero">
   <div class="container">
     <div class="hero-copy">
-      <span class="badge">${icons.spark} Premium Gaming Template</span>
+      <span class="badge">${icons.spark} Premium Gaming Platform</span>
       <h1>Play Smarter with <span>55</span> Club</h1>
       <p class="lead">Experience modern gaming with fast access, premium features and exciting entertainment — designed around clean interfaces and clear information, not clutter.</p>
       <div class="hero-actions">

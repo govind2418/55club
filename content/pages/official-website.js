@@ -3,9 +3,9 @@ const { renderStandardPage } = require("../../components/pageBuilder");
 
 module.exports = {
   slug: "/official-website/",
-  title: "55 Club Official Website — Verification Page Template",
+  title: "55 Club Official Website — Verify You're in the Right Place",
   metaDescription:
-    "How the 55 Club official-website verification page is structured: authenticity signals, mirror-link guidance and a plain trust checklist.",
+    "55 Club is accessible at club55.in.net. Learn how to verify you're on the official domain before logging in, and avoid lookalike or phishing links.",
   build() {
     return renderStandardPage({
       slug: "/official-website/",
@@ -13,42 +13,42 @@ module.exports = {
       hero: {
         eyebrow: "Verify Authenticity",
         h1: "55 Club Official Website",
-        lead: "A trust-focused landing template for the exact question most brand-name searches are really asking: is this the real site?",
+        lead: "55 Club is accessible at club55.in.net. If you arrived here from a shared link or an unfamiliar bookmark, take a moment to confirm you're on the right domain before you log in.",
         primary: { label: "Register", href: "/register/" },
         secondary: { label: "Login", href: "/login/" },
       },
       intro: [
-        "A surprising share of searches for any brand's name plus \"official website\" come from people who've already encountered a suspicious link, an unofficial mirror, or conflicting information somewhere else, and are now trying to confirm what's real. This template treats that search intent seriously instead of just repeating the homepage — it leads with a short, direct confirmation and a small set of concrete ways to verify authenticity.",
-        "Those verification cues include a canonical domain reference, consistent branding elements that match every other page on the site, and clear links to the same Login and Register pages used elsewhere — so nothing about this page asks a visitor to trust a new, unfamiliar destination.",
-        "The page is deliberately short on marketing language and long on reassurance. Where the homepage sells the experience, this page's job is narrower: confirm identity, then get out of the way and route the visitor to what they actually came for.",
-        "That narrower job is also why this template keeps the page relatively short compared to the homepage — length for its own sake doesn't build trust, and a visitor who's already anxious about authenticity doesn't want to scroll through paragraphs of brand story before finding a straight answer. Every sentence here earns its place by directly supporting the verification task.",
+        "A lot of people searching for \"55 Club official website\" have already run into a suspicious link, an unofficial mirror, or conflicting information somewhere else, and just want a straight answer: is this the real site? It is — 55 Club operates at club55.in.net, and this page exists specifically to help you confirm that before entering any credentials.",
+        "Verifying you're in the right place takes a few seconds: check the domain spelling carefully, confirm the connection shows as secure, and make sure the branding and layout match what you see linked from this page's Login and Register buttons.",
+        "This page stays short on purpose. Where the homepage sells the full experience, this page's job is narrower — confirm identity, then get out of your way so you can get to your account.",
+        "Every link on this page points to the exact same Login, Register and Support pages used everywhere else on the site, so nothing here asks you to trust a new, unfamiliar destination.",
       ],
       features: {
         eyebrow: "Verification Signals",
-        title: "What This Page Checks For",
-        text: "Four concrete things a visitor can verify for themselves.",
+        title: "What to Check For",
+        text: "Four concrete things you can verify yourself.",
         cols: 4,
         items: [
-          { icon: "shield", title: "Consistent Branding", text: "Same logo, palette and component system as every other page on the site." },
-          { icon: "lock", title: "Secure Connection", text: "A reminder to confirm HTTPS and the exact domain before entering any credentials." },
-          { icon: "check", title: "Matching Links", text: "Login and Register links that lead to the same templates used across the rest of the site." },
-          { icon: "headset", title: "Support Contact", text: "A direct link to the Customer Support page for anyone still unsure." },
+          { icon: "shield", title: "Correct Domain", text: "55 Club operates at club55.in.net — check the spelling carefully before logging in." },
+          { icon: "lock", title: "Secure Connection", text: "Confirm the connection shows as secure before entering any credentials." },
+          { icon: "check", title: "Matching Links", text: "Login and Register links here lead to the same pages used across the site." },
+          { icon: "headset", title: "Support Contact", text: "Reach Customer Support directly if you're still unsure." },
         ],
       },
       infoSections: [
         {
           eyebrow: "Common Confusion",
-          title: "Why Mirror and Lookalike Sites Exist",
+          title: "Why Lookalike Links Show Up",
           paragraphs: [
-            "Popular brand names attract lookalike domains, whether through simple typo-squatting or more deliberate impersonation. This template addresses that reality directly rather than ignoring it, explaining plainly why a visitor might have landed somewhere unfamiliar in the first place.",
-            "Rather than fear-based language, the copy stays factual: check the domain carefully, be cautious of links shared outside official channels, and when in doubt, navigate manually instead of clicking through a forwarded link.",
+            "Popular platform names attract lookalike domains and forwarded links shared through untrusted sources — group chats, ads, or messages claiming to offer a shortcut. If you ended up somewhere that doesn't look quite right, that's exactly the kind of situation this page is meant to resolve.",
+            "The guidance here is deliberately plain and practical: check the domain carefully, be cautious of links shared outside official channels, and when in doubt, type club55.in.net directly instead of clicking through a forwarded link.",
           ],
           sideList: {
             title: "A Quick Verification Checklist",
             items: [
-              "Check the domain spelling character by character",
-              "Confirm the connection shows as secure (HTTPS)",
-              "Compare the layout against this template's design",
+              "Confirm the domain reads exactly as club55.in.net",
+              "Check the connection shows as secure",
+              "Compare the layout against what's linked from this page",
               "Avoid entering credentials after clicking an unsolicited link",
               "When unsure, contact support before proceeding",
             ],
@@ -59,20 +59,20 @@ module.exports = {
           title: "Why Every Link Here Matches the Rest of the Site",
           reverse: true,
           paragraphs: [
-            "Every button on this page — Register, Login, Support — points to the exact same templates linked from the homepage and the header navigation. That redundancy is intentional: a visitor who found this page through an unfamiliar route should land on something identical to what everyone else sees.",
-            "It's a small structural discipline, but it's one of the simplest ways a legitimate page can distinguish itself from an imitation.",
+            "Every button on this page — Register, Login, Support — points to the exact same pages linked from the homepage and the header navigation. If you found this page through an unfamiliar route, you should land on something identical to what every other visitor sees.",
+            "That consistency is one of the simplest ways to tell a genuine page from an imitation.",
           ],
-          asideTitle: "About This Template",
-          asideText: "This page is a content and layout demonstration, not a live authentication or verification service. Any adaptation for a real product should pair this copy with actual domain-security practices.",
+          asideTitle: "Bookmark It",
+          asideText: "Once you've confirmed you're on club55.in.net, save it as a bookmark. Navigating from a saved bookmark removes the risk of clicking a lookalike link in search results later.",
         },
       ],
       extraSection: {
-        eyebrow: "Search Intent",
-        title: "Writing for the Exact Question Being Asked",
+        eyebrow: "Before You Log In",
+        title: "A Habit Worth Building",
         paragraphs: [
-          "Pages targeting \"[brand] official website\" queries often make the mistake of duplicating the homepage almost word for word, which both underserves the visitor's actual question and creates a near-duplicate content problem for search engines. This template avoids that by keeping the intro short, verification-focused, and structurally distinct from the homepage — same brand voice, different job.",
-          "That distinction is also why this page carries its own unique title, meta description and heading rather than inheriting the homepage's — a small technical detail that keeps both pages eligible to rank for their respective, different queries instead of competing with each other.",
-          "It's also why the FAQ block below asks slightly different questions than the homepage FAQ, even where the topics overlap. Duplicate FAQ schema across multiple pages can dilute the effectiveness of both — writing distinct questions grounded in this page's specific verification purpose keeps the structured data meaningful rather than repetitive.",
+          "Make a habit of checking the address bar before you enter your password, especially if you followed a link from somewhere other than a saved bookmark or a direct search. It takes a few seconds and it's the single most effective way to avoid a phishing attempt.",
+          "If a link ever looks even slightly off — a misspelled domain, an unusual prompt, a request for information beyond your username and password — stop, don't enter anything, and reach out to Customer Support to confirm before proceeding.",
+          "This page is intentionally kept separate from the homepage for a reason: it answers one specific question directly, without asking you to read through a full product overview first when all you wanted was confirmation you're in the right place.",
         ],
       },
       relatedLinks: {
@@ -87,15 +87,14 @@ module.exports = {
       },
       faq: {
         items: [
-          { q: "How do I know I'm on the official website?", a: "Check the domain carefully, confirm a secure connection, and compare the layout and branding against what's described on this page." },
-          { q: "Why do lookalike or mirror sites exist?", a: "Popular brand names frequently attract typo-squatted or impersonation domains. This page explains the pattern so visitors know what to watch for." },
-          { q: "What should I do if a link looks suspicious?", a: "Avoid entering any credentials, and navigate to the site manually instead of clicking through, or contact support to confirm before proceeding." },
-          { q: "Does this page verify domains automatically?", a: "No — this is a static content template. It demonstrates the messaging and structure a verification page should have, not a live security tool." },
-          { q: "Where do I go after confirming I'm on the right site?", a: "The Login and Register links on this page lead to the same account-access templates used throughout the rest of the site." },
-          { q: "Is this the same content as the homepage?", a: "No — this page is intentionally shorter and focused specifically on verification, while the homepage covers the full product overview." },
-          { q: "Why do the FAQs here differ from the homepage FAQs?", a: "Repeating identical FAQ content across multiple pages weakens both for search purposes. This page's questions are written specifically around verification rather than duplicating general product questions." },
-          { q: "Should I bookmark this page instead of searching each time?", a: "Yes — this template recommends exactly that in its verification checklist, since navigating from a saved bookmark removes the risk of clicking a lookalike link in search results." },
-          { q: "What if I already entered details on a suspicious site?", a: "The template's guidance points to Customer Support as the first step, since a real platform would need to know quickly if a lookalike domain is actively collecting user information." },
+          { q: "What is the official 55 Club website?", a: "55 Club is accessible at club55.in.net. Always check the domain carefully before entering your login details." },
+          { q: "How do I know I'm on the official website?", a: "Check the domain reads exactly as club55.in.net, confirm a secure connection, and compare the layout against what's linked from this page." },
+          { q: "Why do lookalike or mirror sites exist?", a: "Popular platform names attract typo-squatted or impersonation domains, often shared through untrusted links in chats or ads." },
+          { q: "What should I do if a link looks suspicious?", a: "Don't enter any credentials. Navigate to club55.in.net directly instead of clicking through, or contact support to confirm first." },
+          { q: "Where do I go after confirming I'm on the right site?", a: "The Login and Register links on this page lead to the same account-access pages used throughout the rest of the site." },
+          { q: "Should I bookmark this page instead of searching each time?", a: "Yes — once you've confirmed the correct domain, save it as a bookmark to avoid clicking a lookalike link in search results later." },
+          { q: "What if I already entered details on a suspicious site?", a: "Contact Customer Support immediately so the team can help secure your account." },
+          { q: "Is this the same content as the homepage?", a: "No — this page is intentionally shorter and focused specifically on verifying you're on the right domain." },
         ],
       },
       cta: {

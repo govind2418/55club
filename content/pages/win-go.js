@@ -3,9 +3,9 @@ const { renderStandardPage } = require("../../components/pageBuilder");
 
 module.exports = {
   slug: "/win-go/",
-  title: "55 Club Win Go — Game Category Page Template",
+  title: "55 Club Win Go — Colour & Number Prediction Game",
   metaDescription:
-    "The 55 Club Win Go page template: a colour-and-number round layout, results-history pattern and a step-by-step rules guide.",
+    "Play Win Go on 55 Club: predict the colour and number before each round locks, track results in the history table, and see the full rules breakdown.",
   build() {
     return renderStandardPage({
       slug: "/win-go/",
@@ -13,27 +13,26 @@ module.exports = {
       hero: {
         eyebrow: "Game Category",
         h1: "55 Club Win Go",
-        lead: "A colour-and-number round format template, laid out with a step-by-step rules guide and a results-history panel built for fast scanning.",
+        lead: "A colour-and-number prediction round that opens, counts down and locks on a fixed cycle — pick before it closes, then watch the result land in the history table.",
         primary: { label: "Register", href: "/register/" },
         secondary: { label: "See Colour Prediction", href: "/colour-prediction/" },
       },
       intro: [
-        "Win Go layers a numbered outcome on top of the colour-based prediction mechanic, which gives this template slightly more surface area to explain than the simpler Colour Prediction page. Rather than compressing that complexity into a single dense paragraph, the rules section here is broken into a numbered step sequence — how a round opens, what the number and colour represent, and how the result is displayed.",
-        "The page leads with the same single round-status pattern used across the category cluster, so a visitor who's already seen the Lottery or Colour Prediction page recognizes the layout immediately. Consistency here isn't accidental — it's the whole point of building this as a component system rather than one-off pages.",
-        "Results history gets particular attention on this page, since Win Go's dual colour-and-number outcome benefits from a slightly richer table than the simpler formats — two data points per row instead of one, still kept to a scannable ten-row default view.",
-        "This template also uses the Win Go page to demonstrate a slightly deeper FAQ block than some of the simpler category pages, since search queries around this specific format tend to be more varied — timing questions, rule questions, and comparison questions all show up here.",
-        "That extra depth is reflected in the length of this page relative to its closest sibling, Colour Prediction — not because longer is inherently better, but because Win Go's dual-outcome mechanic genuinely has more to explain. Matching content depth to actual complexity, rather than forcing every page to an identical length, is a theme that runs through this entire template.",
+        "Win Go layers a numbered outcome on top of the familiar colour-prediction mechanic, which gives it a bit more to explain than the simpler Colour Prediction format. Each round runs on a fixed timer, and every result — colour and number together — gets logged so you can review recent patterns before placing your next pick.",
+        "The page opens with the same round-status panel used across the game cluster, so if you've already played Lottery or Colour Prediction, the layout is instantly familiar. That consistency isn't just a design choice — it means less time reading instructions and more time playing.",
+        "Results history gets a bit more room here than on the simpler formats, since Win Go's dual colour-and-number outcome benefits from two data points per row instead of one. The table still defaults to a scannable ten-row view with a load-more option underneath.",
+        "The FAQ block below runs deeper than some of the other category pages too, since Win Go tends to raise more questions than most — timing, rule clarifications and how it compares to Colour Prediction all come up regularly.",
       ],
       features: {
-        eyebrow: "Win Go Page Features",
-        title: "What This Template Demonstrates",
-        text: "Four patterns for a slightly more complex round-based format.",
+        eyebrow: "Win Go Features",
+        title: "What Makes Win Go Different",
+        text: "Four things that set this format apart from the rest of the cluster.",
         cols: 4,
         items: [
-          { icon: "ball", title: "Numbered Step Rules", text: "A sequential rules guide instead of one dense paragraph." },
-          { icon: "clock", title: "Round Status Panel", text: "The same single-indicator pattern used across the category cluster." },
-          { icon: "check", title: "Two-Column Results", text: "A results table built for colour and number outcomes together." },
-          { icon: "spark", title: "Deeper FAQ Block", text: "More FAQ coverage, matching the format's broader range of search queries." },
+          { icon: "ball", title: "Colour + Number", text: "Two outcomes per round instead of one, for a richer result." },
+          { icon: "clock", title: "Fixed Round Timer", text: "A visible countdown so you always know how long you've got." },
+          { icon: "check", title: "Two-Column History", text: "Colour and number tracked together in every past round." },
+          { icon: "spark", title: "Fast Cycles", text: "Short rounds mean you're never waiting long for the next result." },
         ],
       },
       infoSections: [
@@ -41,38 +40,37 @@ module.exports = {
           eyebrow: "How a Round Works",
           title: "A Step-by-Step Breakdown",
           paragraphs: [
-            "This template explains Win Go's round cycle as four numbered steps: the round opens, a countdown runs, the round closes, and the result — a colour and a number together — is displayed and logged to history.",
-            "Writing the mechanic as numbered steps rather than flowing prose makes it easier to scan on mobile, where a dense paragraph is more likely to be skipped entirely.",
+            "A Win Go round moves through four stages: the round opens for picks, a countdown runs until it closes, the round locks so no more picks are accepted, and the result — a colour and a number together — is revealed and added to the history table.",
+            "Breaking the cycle into numbered steps rather than one dense paragraph makes it easier to follow on mobile, especially if you're checking the rules mid-session.",
           ],
           sideList: {
             title: "The Four Round Steps",
             items: [
-              "1. Round opens for the cycle",
-              "2. Countdown runs to close",
-              "3. Round closes for that cycle",
-              "4. Result displayed and archived",
+              "1. Round opens — picks are accepted",
+              "2. Countdown runs until close",
+              "3. Round locks — no more picks",
+              "4. Result revealed and logged",
             ],
           },
         },
         {
           eyebrow: "Results History",
-          title: "Reading a Two-Data-Point Table",
+          title: "Reading the Results Table",
           reverse: true,
           paragraphs: [
-            "Because each Win Go result carries both a colour and a number, this template's history table uses two clearly labeled columns rather than cramming both values into one cell. Column headers stay visible even when scrolling on mobile, using a lightweight sticky-header pattern.",
-            "As with Lottery, the table defaults to the ten most recent results with a load-more option, keeping the page fast regardless of how much history accumulates over time.",
+            "Because every Win Go result carries both a colour and a number, the history table uses two clearly labeled columns instead of cramming both values into one cell. Column headers stay visible while scrolling on mobile with a lightweight sticky-header pattern.",
+            "As with Lottery, the table defaults to the ten most recent results with a load-more option, so the page stays fast no matter how much history builds up over time.",
           ],
-          asideTitle: "Consistency Across the Cluster",
-          asideText: "The same table component powers Lottery, Win Go and Colour Prediction's history sections, with column count adjusted per format — one more example of the shared component system in action.",
+          asideTitle: "Consistent Across the Cluster",
+          asideText: "The same results table powers Lottery, Win Go and Colour Prediction, with the column count adjusted to match each format's outcome.",
         },
       ],
       extraSection: {
-        eyebrow: "Search Intent",
-        title: "Why This Page's FAQ Runs Deeper",
+        eyebrow: "Common Questions",
+        title: "What Players Usually Ask About Win Go",
         paragraphs: [
-          "Win Go tends to generate a wider range of search queries than the simpler formats in this cluster — timing questions, rule clarifications, and direct comparisons to Colour Prediction all show up in real search patterns for this category of game. This template responds to that by giving the FAQ block more room here than on some of the other category pages, rather than forcing every page into an identical FAQ length regardless of actual search demand.",
-          "That's a general principle worth carrying into any real SEO content strategy: page depth should track query complexity, not an arbitrary uniform word count applied everywhere without regard for what people are actually asking.",
-          "It also shows up in how this page's FAQ schema is written — each question maps to something a real visitor plausibly types into a search bar, rather than a generic template question rewritten with the page's keyword swapped in. That distinction is subtle in the rendered HTML but meaningful for how a search engine evaluates whether a page's structured data genuinely matches its content.",
+          "Win Go tends to bring up a wider range of questions than the simpler formats in this cluster — how the timer works, what counts as a valid pick before lock, and how it differs from Colour Prediction all come up often. The FAQ below is built around exactly those questions rather than generic filler.",
+          "If your question isn't covered below, Customer Support is available around the clock through live chat, and the Responsible Gaming page covers healthy play habits if you want a broader picture before diving in.",
         ],
       },
       relatedLinks: {
@@ -87,14 +85,14 @@ module.exports = {
       },
       faq: {
         items: [
-          { q: "How does Win Go differ from Colour Prediction?", a: "Win Go combines a colour outcome with a numbered result and a slightly richer history table; Colour Prediction uses a simpler, colour-only result set." },
-          { q: "What are the four steps of a Win Go round?", a: "This template describes them as: round opens, countdown runs, round closes, and result displayed and archived to history." },
-          { q: "How is the results history displayed?", a: "As a two-column table showing colour and number together, defaulting to the ten most recent results with a load-more pattern." },
-          { q: "Is Win Go related to Lottery?", a: "Yes — all three formats (Lottery, Win Go, Colour Prediction) share a round-based structure, and this template treats them as a linked cluster of related pages." },
-          { q: "Does this page explain timing in detail?", a: "Yes, through the round-status panel and the numbered step breakdown, since timing questions are among the most common queries for this format." },
-          { q: "Is this connected to a live Win Go game?", a: "No — this is a static content template demonstrating layout, copy and structure, not a functioning game." },
-          { q: "Where can I read the full terms for this format?", a: "The rules panel links through to broader policy pages, including Responsible Gaming, for anyone wanting the complete picture." },
-          { q: "How is the FAQ schema written for this page?", a: "Each question is written to match a plausible real search query rather than a generic template question with the keyword swapped in, which keeps the structured data genuinely representative of the page." },
+          { q: "How does Win Go differ from Colour Prediction?", a: "Win Go combines a colour outcome with a numbered result and a richer two-column history table; Colour Prediction uses a simpler, colour-only result." },
+          { q: "What are the four steps of a Win Go round?", a: "Round opens for picks, countdown runs, round locks, and the result is revealed and logged to history." },
+          { q: "How is the results history displayed?", a: "As a two-column table showing colour and number together, defaulting to the ten most recent results with a load-more option." },
+          { q: "Is Win Go related to Lottery?", a: "Yes — Lottery, Win Go and Colour Prediction all share a round-based structure and sit together as a linked cluster of games." },
+          { q: "How long does a round last?", a: "Rounds run on a fixed, visible countdown shown in the round-status panel, so you always know exactly how much time is left before it locks." },
+          { q: "Where can I read the full rules?", a: "The rules panel above covers the round cycle in detail, and the Responsible Gaming page has broader guidance on healthy play." },
+          { q: "Do I need an account to play?", a: "Yes — register with a username and password first; the Register page walks through the full sign-up flow." },
+          { q: "What if I have a question the FAQ doesn't cover?", a: "Reach out through Customer Support, available around the clock via live chat." },
         ],
       },
       cta: {

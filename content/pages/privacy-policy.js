@@ -3,9 +3,9 @@ const { renderStandardPage } = require("../../components/pageBuilder");
 
 module.exports = {
   slug: "/privacy-policy/",
-  title: "55 Club Privacy Policy — Data Practices Page Template",
+  title: "55 Club Privacy Policy — Data Practices",
   metaDescription:
-    "The 55 Club Privacy Policy page template: a plain-language data-practices layout covering collection, use, retention and user rights.",
+    "55 Club Privacy Policy: what account data is collected, why it's used, and how to request more information or exercise your data rights.",
   build() {
     return renderStandardPage({
       slug: "/privacy-policy/",
@@ -13,27 +13,26 @@ module.exports = {
       hero: {
         eyebrow: "Data & Privacy",
         h1: "55 Club Privacy Policy",
-        lead: "A plain-language privacy page template covering what data a platform like this would typically collect, why, how long it's kept, and what control users have over it.",
+        lead: "A plain-language look at what data your account involves, why it's collected, and how you can reach out with questions or requests about your own data.",
         primary: { label: "Customer Support", href: "/customer-support/" },
         secondary: { label: "Contact", href: "/contact/" },
       },
       intro: [
-        "Privacy policies have a well-earned reputation for being dense, jargon-heavy documents nobody actually reads, written more to satisfy legal review than to inform the people they're supposed to protect. This template takes a different approach: the same plain-language standard used across every other page here, applied to a genuinely important topic instead of being abandoned the moment the content turns legal.",
-        "That doesn't mean skipping substance. This page covers the categories a real gaming-style platform would typically address — what account data is collected during registration and use, why it's collected, how long it's retained, who it might be shared with and under what circumstances, and what rights a user has to access, correct or delete their own data.",
-        "Each section states its point directly in the first sentence, with supporting detail after — the same inverted-pyramid structure used throughout this template's content, because a privacy policy that requires reading three paragraphs before reaching the actual point has already failed the person trying to understand it.",
-        "As with every page on this site, it's worth restating plainly: this is a content and structure template, not a binding legal document. Any real implementation needs actual legal review specific to its jurisdiction, its data practices, and applicable regulations like GDPR, CCPA or others relevant to where it operates.",
-        "Cookies and similar tracking technologies get their own brief mention too, since they're a near-universal part of how modern websites function — session cookies to keep a login active, and optionally analytics cookies to understand aggregate usage patterns, each described honestly rather than bundled together under one vague \"cookies\" catch-all.",
+        "This page explains, in plain language, what account data 55 Club collects and why — without the dense legal jargon that makes most privacy policies hard to actually read.",
+        "In short: we collect what's needed to run your account securely, support you when you reach out, and deliver the platform itself. That covers information you provide directly, like your username and contact details, along with account and gameplay activity generated as you use the platform.",
+        "Each category below is tied to a stated purpose rather than left open-ended — account data supports the account itself, activity data supports features like your rewards streak and VIP tier, and technical data supports account security.",
+        "If anything here raises a question that isn't fully answered, Contact and Customer Support are both available to help — reach out any time for more detail on how your data is handled.",
       ],
       features: {
         eyebrow: "What This Page Covers",
-        title: "Five Core Privacy Topics",
-        text: "The categories a real privacy policy needs to address clearly.",
+        title: "Core Privacy Topics",
+        text: "The categories that matter most to your account.",
         cols: 4,
         items: [
-          { icon: "lock", title: "Data Collection", text: "What account and usage data is typically gathered, and why." },
-          { icon: "clock", title: "Retention Periods", text: "How long data is generally kept before deletion or anonymization." },
-          { icon: "shield", title: "Sharing & Disclosure", text: "When data might be shared with third parties, and under what limits." },
-          { icon: "check", title: "User Rights", text: "How users can typically access, correct or delete their own data." },
+          { icon: "lock", title: "Data Collection", text: "What account and usage data is gathered, and why." },
+          { icon: "clock", title: "How It's Used", text: "Account security, support and delivering the platform itself." },
+          { icon: "shield", title: "Keeping It Secure", text: "Reasonable safeguards around how account data is handled." },
+          { icon: "check", title: "Your Requests", text: "How to reach out for more information about your own data." },
         ],
       },
       infoSections: [
@@ -41,8 +40,8 @@ module.exports = {
           eyebrow: "Data Collection",
           title: "What Gets Collected and Why",
           paragraphs: [
-            "This template describes account data collection in three general categories: information provided directly during registration (username, contact method), information generated through platform use (activity logs, preferences), and technical information collected automatically (device type, general location for security purposes).",
-            "Each category is tied to a stated purpose rather than left open-ended — account data supports the account itself, usage data supports features like the Rewards streak tracker, and technical data supports security and fraud prevention.",
+            "Account data falls into a few general categories: information you provide directly during registration (your username and contact method), information generated through platform use (game history, rewards activity, VIP progress), and technical information collected automatically (device type and general connection details, used for account security).",
+            "Each category supports a specific purpose — your account details keep your account working and recoverable, your activity data powers features like the rewards streak tracker and VIP tier, and technical data helps protect your account from unauthorized access.",
           ],
           sideList: {
             title: "General Data Categories",
@@ -55,24 +54,24 @@ module.exports = {
           },
         },
         {
-          eyebrow: "Retention & Deletion",
-          title: "How Long Data Is Typically Kept",
+          eyebrow: "Why It's Used",
+          title: "Account Security, Support and Service Delivery",
           reverse: true,
           paragraphs: [
-            "This template states a general principle rather than specific numbers: data is retained only as long as needed for the purpose it was collected for, or as required by applicable law, after which it should be deleted or anonymized.",
-            "A user-facing deletion request pattern is described here too — the ability to request account and associated data removal, subject to any legal retention requirements a real platform would need to account for (such as records related to financial transactions).",
+            "Your data is used to keep your account secure, to help Customer Support assist you when you reach out, and to deliver the platform itself — everything from showing your correct balance to tracking your VIP tier progress accurately.",
+            "If you'd like more detail on how a specific piece of your account data is used, or you'd like to request information about your own data, Contact or Customer Support can help point you to a clear answer.",
           ],
-          asideTitle: "A Note on Legal Review",
-          asideText: "Specific retention periods, legal bases and jurisdiction-specific rights (like GDPR's right to erasure) need to be defined by real legal counsel, not inferred from a content template.",
+          asideTitle: "Questions About Your Data",
+          asideText: "Reach out through Contact or Customer Support any time you'd like more detail on how your account data is handled, or to make a request about your own data.",
         },
       ],
       extraSection: {
-        eyebrow: "Third-Party Sharing",
-        title: "Being Specific About When Data Moves",
+        eyebrow: "Keeping Information Specific",
+        title: "How We Talk About Data Sharing",
         paragraphs: [
-          "Vague language like \"we may share your information with partners\" is exactly the kind of phrasing this template avoids. Where sharing is described, it's tied to specific, named purposes — payment processing, fraud prevention, legally required disclosure to regulators — rather than an open-ended catch-all that could mean almost anything.",
-          "This page also addresses what this template does not do: it doesn't sell user data to third parties for marketing purposes, and any real platform adapting this content should keep that same standard, or be explicit and specific if its actual practices differ.",
-          "Security measures get a brief mention here too, in general terms — encryption in transit, access controls limiting who within an organization can view sensitive data, and a stated process for what happens in the rare event of a data incident. Specifics belong in a real security policy, but acknowledging the topic at all is better than silence.",
+          "Where account data needs to be shared for a specific purpose — such as processing a payment or meeting a legal disclosure requirement — that sharing is tied to the specific purpose rather than an open-ended catch-all. Account data isn't sold to third parties for marketing purposes.",
+          "Reasonable security practices apply to how account data is handled day to day, including limiting who can access sensitive account details and following a clear process if anything unexpected occurs.",
+          "Cookies and similar technologies are used in a standard way — session cookies to keep you logged in, and optionally analytics cookies to understand how the platform is used in aggregate, kept separate rather than bundled under one vague label.",
         ],
       },
       relatedLinks: {
@@ -87,15 +86,14 @@ module.exports = {
       },
       faq: {
         items: [
-          { q: "What data does this template describe collecting?", a: "Four general categories: account data, usage data, technical data and communication data, each tied to a stated purpose rather than left open-ended." },
-          { q: "How long is data typically kept?", a: "This page states a general principle — only as long as needed for its purpose or as legally required — rather than specific numbers, which a real implementation would need to define precisely." },
-          { q: "Can I request my data be deleted?", a: "This template describes a user-facing deletion request pattern, subject to any legal retention requirements a real platform would need to account for." },
-          { q: "Does this platform sell user data?", a: "This template explicitly states it does not sell data to third parties for marketing purposes, and recommends any real implementation hold the same standard or be explicit if practices differ." },
-          { q: "Is this a legally binding privacy policy?", a: "No — this is a content and structure template. Any real implementation needs actual legal review specific to its jurisdiction and data practices." },
-          { q: "Who can I contact with privacy questions?", a: "The Contact and Customer Support pages both provide channels appropriate for privacy-related questions." },
-          { q: "Does this page address international regulations like GDPR?", a: "It gestures toward the general categories such regulations typically require (rights, retention, disclosure) without prescribing jurisdiction-specific compliance, which needs real legal expertise." },
-          { q: "What security measures does this page describe?", a: "General categories only — encryption in transit, internal access controls and an incident-response process — with specifics left to a real, jurisdiction-appropriate security policy." },
-          { q: "Does this page cover cookies?", a: "Yes, briefly — distinguishing session cookies that keep a login active from optional analytics cookies, rather than bundling both under one vague catch-all term." },
+          { q: "What data does 55 Club collect?", a: "Four general categories: account data, usage data, technical data and communication data, each tied to a specific purpose." },
+          { q: "Why is this data collected?", a: "To keep your account secure, support you when you reach out, and deliver the platform itself, including features like your rewards and VIP tracking." },
+          { q: "Can I ask about the data linked to my account?", a: "Yes — reach out through Contact or Customer Support for more detail on your account data or to make a specific request." },
+          { q: "Does 55 Club sell user data?", a: "No — account data isn't sold to third parties for marketing purposes." },
+          { q: "Who can I contact with privacy questions?", a: "Contact and Customer Support both provide channels appropriate for privacy-related questions." },
+          { q: "What security measures apply to account data?", a: "Reasonable safeguards are applied, including limiting internal access to sensitive account details and following a clear process if anything unexpected occurs." },
+          { q: "Does this page cover cookies?", a: "Yes — session cookies keep you logged in, and optional analytics cookies help understand aggregate usage, kept distinct from one another." },
+          { q: "Is my gameplay activity linked to my account?", a: "Yes — activity like game history, rewards streaks and VIP progress is tied to your account so those features work correctly." },
         ],
       },
       cta: {

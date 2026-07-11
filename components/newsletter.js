@@ -7,7 +7,7 @@ function renderNewsletter() {
     <div class="newsletter">
       <div>
         <h3>Get product updates</h3>
-        <p class="text-secondary" style="font-size:var(--fs-200);">Interface changes, new game categories and template updates — no spam.</p>
+        <p class="text-secondary" style="font-size:var(--fs-200);">New game categories, promotions and VIP updates — no spam.</p>
       </div>
       <form action="#" method="post" onsubmit="return false;">
         <label class="visually-hidden" for="newsletterEmail">Email address</label>

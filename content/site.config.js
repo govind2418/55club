@@ -1,13 +1,11 @@
 "use strict";
 
-// Placeholder brand config. Swap SITE_NAME / SITE_URL / social links when
-// rebranding this template to a verified, licensed operator.
 module.exports = {
   siteName: "55 Club",
   shortName: "55",
   siteUrl: "https://club55.in.net",
   description:
-    "55 Club is a premium gaming entertainment hub template — fast access, clean design and reward-driven UX patterns for modern gaming brands.",
+    "55 Club is a gaming entertainment platform with Lottery, Win Go, Aviator, Slots, Casino and more — fast access, daily rewards and a tiered VIP program.",
   themeColor: "#ff5a4e",
   bgColor: "#090909",
   supportEmail: "support@club55.in.net",

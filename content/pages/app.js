@@ -3,9 +3,9 @@ const { renderStandardPage } = require("../../components/pageBuilder");
 
 module.exports = {
   slug: "/app/",
-  title: "55 Club App — Mobile Experience Page Template",
+  title: "55 Club App — Mobile Experience",
   metaDescription:
-    "A look at the 55 Club mobile app page template: feature overview layout, screen-by-screen structure and a comparison with the mobile web experience.",
+    "Play 55 Club through the mobile app: same account and balance as the website, plus push notifications for rewards and promotions.",
   build() {
     return renderStandardPage({
       slug: "/app/",
@@ -13,15 +13,15 @@ module.exports = {
       hero: {
         eyebrow: "Mobile Experience",
         h1: "55 Club App",
-        lead: "A feature-overview layout for the mobile app — what it does, how it differs from the mobile website, and what a first-open experience looks like.",
+        lead: "The same account, balance and game library as the website, wrapped in a faster app experience with notifications for rewards and promotions.",
         primary: { label: "Download the App", href: "/download/" },
         secondary: { label: "APK Details", href: "/apk/" },
       },
       intro: [
-        "The App page exists for a different reader than the Download page — someone who already knows they want an app-like experience and is trying to decide if it's worth the install. So instead of leading with a download button, this template leads with a short, honest answer: what the app actually adds over the mobile website.",
-        "That answer is broken into concrete points rather than vague marketing language — faster navigation because there's no full page reload between screens, push-notification support for rewards and promotions, and a persistent login so users aren't re-entering credentials every session. Each point is something a user can verify for themselves after installing, which keeps the copy honest.",
-        "The layout also walks through the app's core screens at a glance — home, games, rewards, account — using the same card pattern as the rest of the site, so someone scanning this page gets a mental map of the app before ever opening it.",
-        "One thing this page deliberately avoids is screenshot-heavy marketing carousels that take longer to load than they take to skim. Instead, each screen is described in a sentence or two, backed by the same lightweight SVG iconography used throughout the site, which keeps this page as fast as any other template here despite covering more visual ground than most.",
+        "The app gives you the exact same 55 Club account as the website — same balance, same VIP tier, same game history — with a faster, more direct experience layered on top.",
+        "What the app adds is concrete rather than vague: faster navigation because there's no full page reload between screens, push notifications for daily rewards and time-limited promotions, and a persistent login so you're not re-entering credentials every session.",
+        "The app is organized around four main screens — Home, Games, Rewards and Account — each mirroring the equivalent section of the website, so switching between the two feels seamless rather than like two different products.",
+        "None of this requires giving up the browser version. If you'd rather not install anything, the mobile website covers the same games and features, just without the home-screen icon and notifications.",
       ],
       features: {
         eyebrow: "App Highlights",
@@ -29,10 +29,10 @@ module.exports = {
         text: "Four concrete differences, not vague superlatives.",
         cols: 4,
         items: [
-          { icon: "bolt", title: "Faster Navigation", text: "No full-page reloads between screens once the app shell is loaded." },
-          { icon: "gift", title: "Push Notifications", text: "Optional alerts for daily rewards and time-limited promotions." },
-          { icon: "lock", title: "Persistent Login", text: "Stay signed in across sessions without re-entering credentials each time." },
-          { icon: "device", title: "Home Screen Access", text: "One tap from the device home screen instead of a bookmarked browser tab." },
+          { icon: "bolt", title: "Faster Navigation", text: "No full-page reloads between screens once the app is loaded." },
+          { icon: "gift", title: "Push Notifications", text: "Alerts for daily rewards and time-limited promotions, opt-in." },
+          { icon: "lock", title: "Persistent Login", text: "Stay signed in across sessions without re-entering credentials." },
+          { icon: "device", title: "Home Screen Access", text: "One tap from your device home screen instead of a browser bookmark." },
         ],
       },
       infoSections: [
@@ -40,8 +40,8 @@ module.exports = {
           eyebrow: "Screen Overview",
           title: "What the Main Screens Look Like",
           paragraphs: [
-            "This template describes four core screens — Home, Games, Rewards and Account — each mapped to an existing page on this site so the app narrative and the website narrative stay consistent instead of diverging.",
-            "That consistency matters for a template meant to be reused: whoever adapts this for a real product only has to design the app screens once, using the same component language already established across the web pages.",
+            "The app has four core screens: Home for quick access to your top game categories, Games for browsing the full library across all ten categories, Rewards for your daily check-in streak and milestones, and Account for your profile, security settings and support links.",
+            "Each screen mirrors its equivalent page on the website, so your mental map of the site carries straight over to the app with no relearning required.",
           ],
           sideList: {
             title: "Core App Screens",
@@ -58,20 +58,20 @@ module.exports = {
           title: "When the Website Is the Better Choice",
           reverse: true,
           paragraphs: [
-            "In the interest of being genuinely useful rather than just promotional, this template's App page also states plainly when the mobile website is the better option — for a one-time visit, for devices with limited storage, or for anyone who'd rather not install anything at all.",
-            "That kind of honesty is unusual on affiliate-style app pages, but it's exactly the sort of content depth that both users and search engines reward over time.",
+            "The mobile website is the better call for a one-time visit, on a device with limited storage, or if you'd simply rather not install anything at all — it covers the same games and the same account with no compromise.",
+            "The app earns its place for regular players who want notifications for rewards and promotions and the convenience of a home-screen icon.",
           ],
-          asideTitle: "No Pressure Tactics",
-          asideText: "This page avoids countdown timers, fake low-storage warnings or other urgency tactics sometimes used to push app installs. The decision is left to the reader.",
+          asideTitle: "Your Call, No Pressure",
+          asideText: "Both paths lead to the same account and balance. Pick whichever fits how often you play and how you use your phone.",
         },
       ],
       extraSection: {
-        eyebrow: "Update Cadence",
-        title: "How App Updates Are Described",
+        eyebrow: "Staying Current",
+        title: "How App Updates Work",
         paragraphs: [
-          "Rather than leaving update behavior unexplained, this template includes a short section on how the app is kept current — a version-number pattern, a changelog link pattern, and a note about how long older versions typically remain functional before an update becomes mandatory. This kind of detail rarely gets written, which is exactly why it stands out when it's done well.",
-          "It also addresses a subtle but real concern: what happens if someone doesn't update right away. The copy here explains that core account functions keep working, while newer promotional features may require the latest version — a distinction that reduces confusion and support requests.",
-          "The page also touches on offline behavior — what's visible when a connection drops mid-session versus what genuinely requires a live connection to function. That kind of detail rarely appears on marketing-style app pages, but it's exactly the sort of practical information that makes a page useful enough to bookmark rather than skim once and forget.",
+          "Since the app is distributed directly rather than through a store, updates arrive as an in-app prompt when a new version is ready. Core account functions — login, balance, deposits — keep working even if you don't update immediately, though newer promotional features may need the latest version.",
+          "If your connection drops mid-session, previously loaded screens like your reward status stay visible, while anything requiring a live connection — placing a bet, submitting a pick — will prompt you to reconnect.",
+          "Notifications are opt-in and the app is designed to sit idle in the background without constant data use, so it won't drain your battery or data plan just by being installed.",
         ],
       },
       relatedLinks: {
@@ -86,15 +86,14 @@ module.exports = {
       },
       faq: {
         items: [
-          { q: "Is the app different from the mobile website?", a: "Yes — this page outlines four concrete differences: faster in-app navigation, optional push notifications, persistent login and home-screen access." },
-          { q: "Do I need the app to use every feature?", a: "No. This template positions the mobile website as a fully valid option, with the app framed as a faster, more convenient layer on top rather than a requirement." },
-          { q: "What screens does the app include?", a: "Four core screens in this template's structure: Home, Games, Rewards and Account, each mirroring an equivalent page on the website." },
-          { q: "How are app updates communicated?", a: "Through a version-and-changelog pattern described in the Update Cadence section, including what still works if you delay updating." },
-          { q: "Where do I actually get the app?", a: "The Download page covers the install process, and the APK page covers Android-specific technical detail." },
-          { q: "Does this page function as a real app listing?", a: "No — it's a static template demonstrating page structure and copy, not a live app store listing." },
-          { q: "What happens if my connection drops while using the app?", a: "The template describes which screens remain viewable offline (like previously loaded reward status) versus which genuinely require a live connection, so the behavior isn't a surprise." },
-          { q: "Can I use the same account on the app and the website?", a: "Yes — this template treats the account system as shared across both, with the Account screen mirroring the same profile and security settings described on the website's Login and Register pages." },
-          { q: "Does the app need constant background access?", a: "No — push notifications are opt-in and the app is designed to sit idle in the background without continuous data use, consistent with the permission transparency described earlier on this page." },
+          { q: "Is the app different from the mobile website?", a: "It's the same account and games, with faster in-app navigation, push notifications, persistent login and home-screen access added on top." },
+          { q: "Do I need the app to use every feature?", a: "No. The mobile website covers the full game library and account features — the app just adds convenience and notifications." },
+          { q: "What screens does the app include?", a: "Four core screens: Home, Games, Rewards and Account, each mirroring the equivalent page on the website." },
+          { q: "How are app updates handled?", a: "You'll see an in-app prompt when a new version is available. Core account functions keep working even if you update later." },
+          { q: "Where do I actually get the app?", a: "The Download page covers the install process, and the APK page covers the Android-specific technical steps." },
+          { q: "Can I use the same account on the app and the website?", a: "Yes — your account, balance and VIP tier are shared across both, with the Account screen mirroring your website profile and settings." },
+          { q: "What happens if my connection drops while using the app?", a: "Previously loaded screens, like your reward status, stay visible. Anything requiring a live connection will prompt you to reconnect." },
+          { q: "Does the app need constant background access?", a: "No — notifications are opt-in and the app stays idle in the background without continuous data use." },
         ],
       },
       cta: {
