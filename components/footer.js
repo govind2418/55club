@@ -37,7 +37,7 @@ function renderFooter() {
     </div>
 
     <div class="footer-notice">
-      <p class="disclaimer">This is a demonstration template. 55 Club is a placeholder brand used to showcase UI, content and SEO structure only — it is not a live gaming operator and does not process registrations, deposits or withdrawals. Real-money gaming carries financial risk; only engage with platforms that hold verifiable licensing in your jurisdiction, and always play responsibly. Must be of legal age in your jurisdiction.</p>
+      <p class="disclaimer">Real-money gaming carries financial risk. Play only if you are of legal age in your jurisdiction, only wager what you can afford to lose, and see the Responsible Gaming page for support resources.</p>
       <p>&copy; ${year} ${site.siteName}. All rights reserved.</p>
     </div>
   </div>

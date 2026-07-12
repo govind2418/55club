@@ -69,7 +69,7 @@ module.exports = {
         eyebrow: "Common Questions",
         title: "What Players Usually Ask About Win Go",
         paragraphs: [
-          "Win Go tends to bring up a wider range of questions than the simpler formats in this cluster — how the timer works, what counts as a valid pick before lock, and how it differs from Colour Prediction all come up often. The FAQ below is built around exactly those questions rather than generic filler.",
+          "Win Go tends to bring up a wider range of questions than the simpler formats in this cluster — how the timer works, what counts as a valid pick before lock, and how it differs from Colour Prediction all come up often. The FAQ below is built around exactly those questions.",
           "If your question isn't covered below, Customer Support is available around the clock through live chat, and the Responsible Gaming page covers healthy play habits if you want a broader picture before diving in.",
         ],
       },

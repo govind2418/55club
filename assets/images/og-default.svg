@@ -8,8 +8,10 @@
   <rect width="1200" height="630" fill="#090909"/>
   <rect width="1200" height="630" fill="url(#ogGlow)"/>
   <g transform="translate(90,90)">
-    <path d="M60 6 116 40v68L60 142 4 108V40L60 6Z" fill="#151515" stroke="#FF5A4E" stroke-width="3"/>
-    <path d="M60 6 116 40 60 74 4 40 60 6Z" fill="#FF5A4E"/>
+    <path d="M60 4c7 8.6 10.8 14.9 10.8 20.9 0 6.2-4.9 10.9-10.8 10.9s-10.8-4.7-10.8-10.9C49.2 18.9 53 12.6 60 4Z" fill="#FF5A4E"/>
+    <circle cx="60" cy="82" r="50" fill="none" stroke="#FF5A4E" stroke-width="7"/>
+    <circle cx="60" cy="82" r="44.2" fill="#151515"/>
+    <text x="60" y="98" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="42" fill="#FF5A4E">55</text>
   </g>
   <text x="90" y="330" font-family="Sora, Segoe UI, sans-serif" font-weight="800" font-size="72" fill="#FFFFFF">55<tspan fill="#FF5A4E">Club</tspan></text>
   <text x="90" y="390" font-family="Inter, Segoe UI, sans-serif" font-size="30" fill="#CFCFCF">Play Smarter. Fast Access. Premium Design.</text>

@@ -20,13 +20,13 @@ module.exports = {
       intro: [
         "Gaming and gambling-style entertainment should stay entertainment. If it stops feeling like a choice and starts feeling like something harder to control, that's worth taking seriously and acting on, not minimizing.",
         "The sections below cover what healthy play generally looks like, warning signs that are worth paying attention to, tools like deposit limits and self-exclusion that platforms typically offer, and where to look for actual professional support.",
-        "Important disclaimer: this site is a design and content showcase built to demonstrate a gaming-platform layout — it does not operate as a live gaming platform and does not process real registrations, deposits or withdrawals. If you are engaging with any real-money gaming platform, verify it holds legitimate licensing for your jurisdiction, and hold it to the standard of transparency this page describes.",
+        "Disclosure: this page is published by an independent affiliate of 55 Club, not by 55 Club itself. It's here to give you real, actionable guidance before you play — verify any real-money platform holds legitimate licensing for your jurisdiction, and hold it to the standard of transparency this page describes.",
         "Age restrictions apply to all real-money gaming without exception. This content is not directed at, and should not be accessed by, anyone under the legal age for gaming activity in their jurisdiction.",
       ],
       features: {
         eyebrow: "What This Page Covers",
         title: "Four Areas of Genuine Guidance",
-        text: "Not legal boilerplate — actual information worth reading.",
+        text: "Actual information worth reading, not a wall of legal text.",
         cols: 4,
         items: [
           { icon: "check", title: "Healthy Play Habits", text: "What balanced, entertainment-focused play generally looks like." },
@@ -86,11 +86,11 @@ module.exports = {
       },
       faq: {
         items: [
-          { q: "Is this page just legal boilerplate?", a: "No — this is written as genuine guidance, covering healthy play habits, real warning signs, limit-setting tools and where to find actual professional support." },
+          { q: "Is this just a standard legal disclaimer page?", a: "No — this is written as genuine guidance, covering healthy play habits, real warning signs, limit-setting tools and where to find actual professional support." },
           { q: "What are signs that play might not be staying healthy?", a: "Spending more time or money than intended regularly, chasing losses, hiding play from others, or feeling anxious when not playing — a cluster of these is worth taking seriously." },
           { q: "What tools do real platforms typically offer for limit-setting?", a: "Deposit limits, session reminders, cooling-off periods and full self-exclusion — legitimate operators make these easy to find in account settings." },
           { q: "Where can I find real help if I'm concerned about my play?", a: "Search for your country's official, independent problem-gambling support service or national helpline rather than relying on a number from any single gaming website." },
-          { q: "Is 55 Club a live real-money gaming platform?", a: "No — this site is a design and content showcase and does not process real registrations, deposits or withdrawals." },
+          { q: "Who publishes this page?", a: "An independent 55 Club affiliate — this page is here to give you real guidance before you play, not to speak on the platform's behalf." },
           { q: "Is there an age requirement for this content?", a: "Yes — real-money gaming activity requires meeting the legal age in your jurisdiction without exception, and this content is not directed at anyone under that age." },
           { q: "Does self-exclusion mean permanently closing an account?", a: "Not necessarily — real platforms typically offer both temporary cooling-off periods and longer-term self-exclusion, giving people options depending on their situation." },
         ],
